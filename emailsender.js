@@ -27,7 +27,7 @@ async function main(){
     to: "drink.hanjan@gmail.com", // list of receivers
     subject: "Hello ✔", // Subject line
     text: "Hello world?", // plain text body
-    html: "<b>Hello world?</b>" // html body
+    html: { path: "index.html"} // html body
   };
 
   // send mail with defined transport object
